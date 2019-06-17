@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Timber CafeClub</title>
+		<link rel="icon" type="image/png" href="images/webicon.png"/>
+		
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+		
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		
+		<meta name="viewport" content="width=device-width;initial-scale=1.0"/>
+		
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+	
+		<!-- Zaglavlje-->
+		
+		<div class="container-fluid" id="zaglavljeGore">
+			<div class="container">
+				<nav class="navbar navbar-inverse">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<a class="navbar-brand" href="index.html">Timber Cafe&amp;Club</a>
+						</div>
+						<ul class="nav navbar-nav col-lg-7">
+							<li><a href="index.html">Početna</a></li>
+							<li><a href="galerija.html">Galerija</a></li>
+							<li><a href="cenovnik.html">Cenovnik</a></li>
+							<li class="active"><a href="#">Kontakt</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="pretplata.html"><span class="glyphicon glyphicon-fire"></span> Pretplatite se</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<!-- Zaglavlje kraj-->
+		
+		<!-- Slajder pocetak-->
+		<div class="container backgroundimg">
+			<div class="row">
+				<div class="container">
+					<h1 class="h1 text-center"><a href="index.html"> Timber 2018</a></h1>
+				</div>
+			</div>
+		</div>
+		<!-- kraj Slajder -->
+		
+		<!-- Opis -->
+		
+		<div class="container">
+			<div class="row">
+				<div>
+					<h3 class="col-lg-12">O nama </h3>
+					<p class="col-lg-12"> Timber Caffee&amp;Club je otvoren 2016. godine. Od tada pružamo najbolje usluge i pravimo najbolju kafu u kraju. Ako nam ne verujete, možete nas posetiti i uveriti se sami! Naša adresa je: Trg Borisa Kidriča 3, a možete nas pronaći i na mapi dole. Vidimo se na kafi! </p>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Opis kraj-->
+		
+		<!-- mapa-->
+	
+				<div class="container">
+					
+					<h3>Naša lokacija</h3>
+						<div id="map"></div>
+						<script>
+						  function initMap() {
+							var uluru = {lat: -25.363, lng: 131.044};
+							var map = new google.maps.Map(document.getElementById('map'), {
+							  zoom: 4,
+							  center: uluru
+							});
+							var marker = new google.maps.Marker({
+							  position: uluru,
+							  map: map
+							});
+						  }
+						</script>
+						<script async defer
+						src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWHrA2fqJmtNSMenXBheAmCXtsabTj2xc&callback=initMap">
+						</script>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5647.409686007877!2d20.599910302551272!3d44.94966782195317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a8790bc493925%3A0x88e4c6ca5b28c3ff!2sTimber+Coffee+%26+Club!5e0!3m2!1ssr!2srs!4v1520684856078" width="1200" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+		<!-- mapa kraj-->
+		
+		<!-- footer pocetak-->
+		<div class="container-fluid" id="footer">
+			<div class="container">
+				<div class="row flex" >
+					<div class="col-lg-5 col-md-6 col-sm-8 col-xs-12" id="drustveneMreze">
+						<ul class="nav nav-pills">
+							<li><a href="https://www.facebook.com/profile.php?id=100011665453291"> <i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://www.instagram.com/timbercoffeeclub/"> <i class="fa fa-instagram"></i></a></li>
+							<li><a href="https://www.twitter.com/timbercoffeeclub/"> <i class="fa fa-twitter"></i></a></li>
+							<li><a href="https://www.whatsapp.com/timbercoffeeclub"> <i class="fa fa-whatsapp"></i></a></li>
+							<li><a href="https://www.googleplus.com/timbercc"> <i class="fa fa-google-plus"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-lg-2 col-md-6 col-sm-4 col-xs-12" id="designer">
+						<div>
+							<p>Designed by <a href="designer.html">Bojan S&#46;</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	</body>
+</html>

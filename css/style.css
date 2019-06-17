@@ -1,0 +1,159 @@
+@font-face{
+	src: url('Stripes.ttf');
+	font-family: 'Stripes';
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+a {
+	color: #fff;
+}
+.navbar, .navbar-inverse {
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.relative {
+	position: relative;
+    padding: 48px;
+    margin: 8px;
+    background-color: rgba(255,255,255,.85);
+}
+
+.relative_gore, .relative_dole {
+	display: block;
+}
+.relative_gore {
+	font-size:20px;
+}
+.relative_dole {
+	font-size: 60px;
+}
+.relative p {
+	line-height: 1.75;
+	text-align: center;
+	font-size: 17px;
+}
+.najnoviji div {
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 10px;
+	width: 280px;
+	}
+.najnoviji div p {
+	text-align: center;
+	font-size: 16px;
+	color: #66410e;
+}
+
+.najnoviji div p, .menulast
+{
+	font-family: 'Franklin Gothic', sans-serif;
+}
+.backgroundimg {
+	background-image:url('../images/timberwallpaper.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 320px;
+	width: 100%;
+}
+.h1 {
+	width: 100%;
+	font-family: 'Stripes' ;
+	font-size: 200px;
+}
+
+.h1 a{
+	text-decoration: none;
+	color: #37383a;
+}
+#zaglavljegore {
+	background-color: #37383a;
+}
+
+#footer {
+	background-color: #222;
+	color: #fff;
+	padding: 5px 0px;
+}
+#pozadina #naslov h1{
+	font-size: 30px;
+	font-family: 'Stripes';
+}
+#produkti {
+	margin-bottom: 100px;
+}
+#designer p  {
+	color: black;
+	padding-top: 10px;
+}
+.slika {
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.slika img {
+	-webkit-transition:all 0.5s ease;
+}
+.slika img:hover {
+	transform: scale(1.3);
+}
+table {
+	margin-top: 30px;
+}
+.forma {
+	margin: 30px auto;
+}
+#mapa {
+	width: 100%;
+}
+.opisja {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.bojamreze a {
+	color: #000;
+}
+@media only screen and (max-width: 1201px) {
+    .h1 {
+        font-size:150px;
+		padding-top:20px;
+    }
+	.backgroundimg {
+		height: 300px;
+	}
+}
+@media only screen and (max-width: 1000px) {
+    .h1 {
+        font-size:100px;
+		padding-top:17px;
+    }
+	.backgroundimg {
+		height: 220px;
+	}
+
+@media only screen and (max-width: 770px) {
+	.najnoviji {
+		margin: 5px auto;
+	}
+
+}	
+@media only screen and (max-width: 590px) {
+    .h1 {
+        font-size:80px;
+		padding-top:25px;
+    }
+	.backgroundimg {
+		height: 190px;
+	}
+	.nestaje {
+		display: none;
+	}
+	
+}
+@media only screen and (max-width: 480px) {
+    .h1 {
+        font-size:68px;
+		padding-top:12px;
+    }
+	
+}
